@@ -25,7 +25,8 @@ Good luck :)
 
 * ✔ `generate_session(sessionfilename)`: To generate session files with extension `.fb` 
 * ✔ `open_session(sessionfilename)`: To open session files with extension `.fb`
-* `open_chat_to(nameorusername)`: To open chatroom to someone
+* `open_chat_to_fb_numeric_id(number)`: To open chatroom to someone by using facebook numeric id.
+* `open_chat_to_username(username)`: To open chatroom to someone by username
 * `open_chat_to_profile_url(url)`: To open chat to someone from profile url
 * `send_message_to_currently_opened_chat(message)`: To Send message to currently opened chatroom
 * `send_message_to(nameorusername, message)`: To send message to someone
