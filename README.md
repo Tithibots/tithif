@@ -23,8 +23,8 @@ Good luck :)
   
 ## Automation ideas
 
-* `generate_session(sessionfilename)`: To generate session files with extension `.fb` 
-* `open_session(sessionfilename)`: To open session files with extension `.fb`
+* ✔ `generate_session(sessionfilename)`: To generate session files with extension `.fb` 
+* ✔ `open_session(sessionfilename)`: To open session files with extension `.fb`
 * `open_chat_to(nameorusername)`: To open chatroom to someone
 * `open_chat_to_profile_url(url)`: To open chat to someone from profile url
 * `send_message_to_currently_opened_chat(message)`: To Send message to currently opened chatroom
