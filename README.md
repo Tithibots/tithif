@@ -25,11 +25,10 @@ Good luck :)
 
 * ✔ `generate_session(sessionfilename)`: To generate session files with extension `.fb` 
 * ✔ `open_session(sessionfilename)`: To open session files with extension `.fb`
-* `open_chat_to_fb_numeric_id(number)`: To open chatroom to someone by using facebook numeric id.
-* `open_chat_to_username(username)`: To open chatroom to someone by username
+* ✔ `open_chat_to_fb_numeric_id_or_username(numberorusername)`: To open chatroom to someone by using facebook numeric id ot username.
 * `open_chat_to_profile_url(url)`: To open chat to someone from profile url
 * `send_message_to_currently_opened_chat(message)`: To Send message to currently opened chatroom
-* `send_message_to(nameorusername, message)`: To send message to someone
+* `send_message_to(numberorusername, message)`: To send message to someone
 * `scrape_likes_from_first_n_posts(url)`: To scrape likes of posts of someone  
 * `track_online_status(url)`: To track online status for someone and save the data in a file 
 * `create_3_days_online_status_wallpaper_from_url(url)`: to show an image visually showing online status for 3-days
