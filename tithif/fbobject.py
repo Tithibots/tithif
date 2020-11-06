@@ -12,8 +12,7 @@ class FBObject:
     def __init__(self, browser=None):
         self.browser = browser
         self.browser = self._open_browser_if_not_opened()
-        self._open_whatsapp_if_not_opened()
-        # self._wait_for_web_whatsapp_to_load()
+        self._open_facebook_if_not_opened()
 
     def quit(self, _shouldoutput=(True, True)):
         if _shouldoutput[0] and DEFAULT_SHOULD_OUTPUT:
@@ -28,7 +27,7 @@ class FBObject:
             self.browser = webdriver.Chrome()
         return self.browser
 
-    def _open_whatsapp_if_not_opened(self):
+    def _open_facebook_if_not_opened(self):
         if self.browser.current_url.find("facebook") == -1:
             self.browser.get("https://www.facebook.com/")
 
