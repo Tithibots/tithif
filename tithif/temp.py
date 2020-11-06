@@ -7,3 +7,10 @@ from selenium.webdriver.support import expected_conditions as EC
 driver = webdriver.Chrome()
 driver.get('https://www.facebook.com/')
 print("break")
+a = driver.get_cookies()
+b = []
+for i in a:
+    if i['name'] == 'xs' or i['name'] == 'c_user':
+        b.append(i['value'])
+
+
